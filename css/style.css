@@ -1,0 +1,440 @@
+/* Start Common Codding Style */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details {
+    width: 60%;
+
+}
+
+.media {
+    width: 40%;
+}
+
+.detailsInfo>h3 {
+    font-size: 67px;
+    font-weight: 600;
+}
+
+.detailsInfo>P {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+a {
+    display: inline-block;
+    padding: 27px 34px;
+    background-color: #00bec9;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.titleHeading>h2 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.titleHeading>p {
+    font-size: 33px;
+    padding: 0 207px;
+}
+
+.titleSection>.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleDetails>.item {
+    width: 30%;
+}
+
+/* End Common Codding Style */
+
+
+/* Start Header Section Styling css*/
+#navSection>div {
+    background-color: #d9ab00;
+}
+
+#navSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#navSection ul li a {
+    display: inline-block;
+    padding: 49px 21px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    background: none;
+}
+
+#navSection .navBar>.search_bar {
+    background-color: #fbc301;
+}
+
+#navSection .navBar>.search_bar input {
+    background: none;
+    border: none;
+}
+
+#navSection .search_bar .padding {
+    padding: 15px 19px;
+}
+
+#navSection .search_bar input.search {
+    background: #00bec9;
+    padding: 14px 23px;
+}
+
+/* End Header Section Styling css */
+
+
+/* Start veterinarian Section 1 */
+#VeterinarianSection1 {
+    background-color: #fbc302;
+    padding: 192px 0;
+    color: #ffffff;
+}
+
+#VeterinarianSection1 .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#VeterinarianSection1 .details {
+    width: 65%;
+}
+
+#VeterinarianSection1 .media {
+    width: 35%;
+}
+
+#VeterinarianSection1 .details>.detailsInfo {
+    padding-right: 83px;
+}
+
+#VeterinarianSection1 .details>div.anchor {
+    padding-right: 263px;
+}
+
+#VeterinarianSection1 .detailsInfo>p {
+    padding: 52px 0;
+}
+
+/* End veterinarian Section 1 */
+
+
+/* Start veterinarian Section 2 */
+#VeterinarianSection2 .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#VeterinarianSection2 {
+    padding: 142px 0px;
+    color: #000000;
+}
+
+#VeterinarianSection2 .media {
+    height: 480px;
+    border-left: 40px solid transparent;
+    padding: 10px;
+    background-color: #ebd06e;
+    background-image: linear-gradient(rgba(235, 208, 99, 0.5), rgba(235, 208, 99, 0.3)), url(../image/veterinarian_image2.png);
+    background-clip: content-box;
+}
+
+#VeterinarianSection2 .details>.anchor a {
+    background-color: #fcc302;
+}
+
+/* End veterinarian Section 2 */
+
+
+/* Start Title Section 1 */
+#titleSection1 {
+    background-color: #fbc301;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.item>img {
+    padding: 49px 0;
+}
+
+.item>h3 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.item>p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* End Title Section 1 */
+
+
+/* Start veterinarian Section 2 */
+#VeterinarianSection3 .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#VeterinarianSection3 {
+    padding: 142px 0px;
+    color: #000000;
+    text-align: right;
+}
+
+#VeterinarianSection3 .media {
+    height: 480px;
+    border-left: 40px solid transparent;
+    padding: 10px;
+    background-color: #ebd06e;
+    background-image: linear-gradient(rgba(235, 208, 99, 0.5), rgba(235, 208, 99, 0.3)), url(../image/veterinarian_image2.png);
+    background-clip: content-box;
+}
+
+#VeterinarianSection3 .details>.anchor a {
+    background-color: #fcc302;
+}
+
+/* End veterinarian Section 2 */
+
+
+
+/* Start Title Section 2 */
+#titleSection2 {
+    background-color: #fbc301;
+    text-align: center;
+    padding: 108px 0;
+}
+
+#titleSection2 .titleDetails .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleSection2 .price {
+    padding: 0px 80px;
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#titleSection2 a {
+    display: inline-block;
+    margin: 33px auto;
+    border-radius: 20px;
+    padding: 17px 47px;
+}
+
+/* End Title Section 2 */
+
+
+/* Start Title Section 3 */
+#titleSection3 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    color: #313243;
+}
+
+#titleSection3 .item .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleSection3 .item>h5 {
+    font-size: 29px;
+    font-weight: 500px;
+}
+
+#titleSection3 .item>h6 {
+    font-size: 25px;
+}
+
+#titleSection3 .item>.socialMediaNav {
+    text-align: center;
+    padding: 0px 88px;
+}
+
+#titleSection3 .item>.socialMediaNav>li {
+    display: inline-block;
+    width: 25%;
+
+}
+
+#titleSection3 .socialMediaNav>li>a {
+    background: none;
+    padding: 0;
+}
+
+/* End Title Section 3 */
+
+
+/* Start Website Info Section */
+#websiteInfoSection {
+    background: linear-gradient(rgba(251, 195, 1, 0.75), rgba(251, 195, 1, 0.56), rgba(251, 195, 1, 0.75)), url(./../image/website_info_section_bg.png) center/cover;
+    text-align: center;
+    padding: 165px 0;
+    color: #ffffff;
+}
+
+#websiteInfoSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#websiteInfoSection .item>p {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+#websiteInfoSection .item>p:last-child {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+/* Start Website Info Section */
+
+
+/* Start Title Section 4 */
+#titleSection4 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    color: #313243;
+}
+
+#titleSection4 .item>img {
+    margin: 0;
+    padding: 0;
+}
+
+#titleSection4 .titleDetails>.item>.innerInfo {
+    text-align: left;
+    padding: 20px;
+    border: 3px solid rgb(175, 175, 175);
+    box-shadow: -3px 0px 0px gray;
+    border-top-color: transparent;
+}
+
+#titleSection4 .titleDetails>.item>.noBorder {
+    border: transparent;
+    box-shadow: none;
+}
+
+#titleSection4 .innerInfo>h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#titleSection4 .innerInfo>p {
+    font-size: 17px;
+
+}
+
+#titleSection4 .innerInfo>p:nth-child(4) {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* End Title Section 4 */
+
+
+/* Start Footer Section */
+#footerSection {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 221px 0;
+}
+
+#footerSection .titleDetails>.item {
+    width: 25%;
+}
+
+#footerSection .titleDetails>.item:last-child {
+    width: 50%;
+}
+
+#footerSection .row {
+    justify-content: space-between;
+    align-items: start;
+}
+
+#footerSection .item>ul>li:first-child {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+#footerSection .item>ul>li {
+    font-size: 25px;
+}
+
+#footerSection .item .inputField {
+    background-color: #d9ab00;
+}
+
+#footerSection .item .inputField input {
+    background: none;
+    border: transparent;
+}
+
+#footerSection .item .inputField li:last-child {
+    padding: 30px 55px;
+    background-color: #00bec9;
+}
+
+#footerSection .item>ul>.socialMedia {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+}
+
+#footerSection .item>ul>.socialMedia li {
+    width: 25%;
+    text-align: right;
+}
+
+#footerSection .socialMedia a {
+    padding: 0;
+    background: none;
+    display: inline-block;
+}
+
+/* End Footer Section */
